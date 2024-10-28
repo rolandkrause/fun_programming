@@ -1,0 +1,73 @@
+  ---
+title: "Functional Programming"
+subtitle: ""
+author: "NN"
+date: "28 Oct. 2024"
+---
+
+```{r setup}
+#| include: false
+```
+
+> This little tutorial aims to make you familiar with some of the functions of the `stringr` package and a few regular expressions. 
+
+## Aims 
+This practical support the inline exercises of the [Functional Programming lecture](/slides/fun_programming.qmd)
+
+## Data types reprise
+
+#### Working with months of the year
+Find three ways of expressing the names of the twelve months that will sort correctly. You can abbreviate the names. 
+
+```{r}
+#Answer1
+```
+
+```{r}
+#Answer2
+```
+
+```{r}
+#Answer3
+```
+
+
+## Functions
+
+
+### What is not a function
+
+Which programming structures do you know what are similar but not identical to _functions_?
+
+How do they differ from _functions_?
+
+> Your solution in text
+
+### Calculate the median for all columns in the `trees` data set
+
+You should be able to find three solutions, one returning a list, a vector of doubles and a tibble with a single row respectively.
+```{r}
+# Your solution
+```
+
+
+## Build linear models
+
+`ChickenWeights` is an in-built data set relating the growth of chicken on a diet.
+
+Which diet has the biggest increase in growth as expressed in weight over time?
+
+
+
+1. Split the chicken by diet using `group_split()`
+2. Build linear model with the `lm` function.
+3. Retrieve the model details with `summary()`. 
+4. Extract the "coefficients" of the linear model which is a Matrix including a "weight" row and a "Estimate" column. 
+
+```{r}
+# Your solution
+```
+
+
+
+
