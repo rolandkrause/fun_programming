@@ -1,3 +1,3 @@
-# Exercise for Regular Expressions
+# Exercise for Functional Programming
 
-Please fill your name and answer in `stringr.qmd`.
+Please fill your name and answer the questions in `fun_programming.qmd`.
